@@ -1,8 +1,7 @@
 pipeline
 {
 agent any
-{
-   stages
+stages
       {
          stage("Build")
             {
@@ -21,5 +20,4 @@ agent any
                 steps{echo "release successful"}
             }
       }
-}
 }
